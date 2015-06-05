@@ -10,8 +10,6 @@ local gsplit = framework.string.gsplit
 local pack = framework.util.pack
 
 local params = framework.params
-params.name = 'Boundary NGINX Plugin'
-params.version = '2.0' 
 
 local options = url.parse(params.url)
 options.auth = auth(params.username, params.password) 
